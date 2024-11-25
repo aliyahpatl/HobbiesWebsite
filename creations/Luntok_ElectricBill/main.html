@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BillReading</title>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <script src="main.js"></script>
+  </head>
+
+  <body>
+    <!--Website Title-->
+    <div class="container1">
+      <div class="titleBorder">
+        <h1>MONTHLY ELECTRICITY BILL READING</h1>
+      </div>
+      <h3>Compute the monthly electric consumption. Input your previous and current readings, with the unit in kwh.</h3>
+    </div>
+    <!--Electric Bill Section-->
+    <div class="container2">
+      <div class="image"> <!--Image Section-->
+        <img src="electric.png" alt="Electric Switch" />
+      </div>
+      <div class="box">
+        <div class="calculator">
+          <!--Result Label-->
+          <div class="result-box">
+            <label class="resultLabel">MONTHLY CONSUMPTION:</label>
+            <br> <br>
+            <label id="result"></label>
+          </div>
+
+          <div class="input-container">
+            <!--Operations-->
+            <form onsubmit="event.preventDefault(); computeUnit();">
+              <h5>Current Reading:</h5>
+              <label for="current_reading">
+                <input type="number" name="current_reading" id="current_reading" class="input" placeholder="Enter the Current reading"/>
+                <span id="current_error"></span>
+                <div class="highlight"></div>
+              </label>
+              <h5>Previous Reading:</h5>
+              <label for="previous_reading">
+                <input type="number" name="previous_reading" id="previous_reading" class="input"  placeholder="Enter the Previous Reading"/>
+                <span id="previous_error"></span>
+                <div class="highlight"></div>
+              </label>
+              <h5>Unit (KWH):</h5>
+              <label for="unit">
+                <input type="number" name="unit" id="unit" class="input"  placeholder="Enter the unit in (kwh)"/>
+                <span id="unit_error"></span>
+                <div class="highlight"></div>
+              </label>
+              <br> <br>
+              <button type="submit"> <span></span>
+                <span></span>
+                <span></span>
+                <span></span>COMPUTE</button>
+            </form>
+        </div> <!--input close-->
+        </div> <!--calculator close-->
+      </div> <!--box close-->
+    </div> <!--container2 close-->
+  </body>
+</html>

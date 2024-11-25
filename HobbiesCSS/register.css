@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Vollkorn:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DotGothic16&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@400;700;800&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("/assets/website.jpg");
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  width: 500px;
+  background: linear-gradient( 135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0) );
+  backdrop-filter: blur(10px);
+  margin: auto;
+  box-shadow: -1px 0px 25px 0px rgb(22, 57, 57) ;
+  padding: 2.0em;
+  box-sizing: border-box;
+  border-radius: 2.5em;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.form .Group {
+  margin-bottom: 2em;
+}
+
+.form input {
+  padding: 0.3em 0.5em 0.4em;
+  background-color: #163939;
+  border-radius: 20px;
+  box-sizing: border-box;
+  width: 400px;
+  height: 65px;
+  padding-left: 15px;
+  font-size: 16px;
+  color: #ddd;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  font-family: "Almarai", sans-serif;
+  transition: box-shadow 0.2s linear, border-color 0.25s ease-out;
+}
+
+.form input::placeholder {
+  color: #ddd;
+  font-size: 16px;
+}
+
+.form .btn {
+  margin: 0 auto;
+  padding: 0.5em;
+  background-color: #163939;
+  border: none;
+  border-radius: 15px;
+  box-sizing: border-box;
+  box-shadow: none;
+  padding: 12px 30px;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+  font-family: "Almarai", sans-serif;
+  transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.form .btn:active {
+  color: #5e8e85;
+  transform: scale(0.98);
+  box-shadow: inset 4px 4px 12px #83d2c2, inset -4px -4px 12px #ffffff;
+}
+
+.form .btn2 {
+  font-family: "Almarai", sans-serif;
+  background-color: transparent;
+  border: none;
+  color: #163939;
+  text-decoration: none;
+  padding-top: 20px;
+}
+
+.form .btn2:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.error {
+  color: #D6D6D6;
+  font-size: 13px;
+  font-family: "Almarai", sans-serif;
+  font-weight: 300px;
+  padding-top: 20px;
+}

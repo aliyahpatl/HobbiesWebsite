@@ -1,0 +1,560 @@
+.siteMargin {
+  margin: 0;
+  padding: 0;
+}
+
+.mainContacts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50vh;
+}
+
+.mainCon {
+  text-align: center;
+  font-family: "Almarai", sans-serif;
+  color: #faf1f6;
+  margin-top: 100px;
+  font-size: 70px;
+}
+
+.cardMContact {
+  width: 200px;
+  height: 254px;
+  background: #faf1f6;
+  padding: 2rem 2rem;
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  align-items: center;
+  border-radius: 15%;
+  margin-top: -90px;
+}
+
+.card-info {
+  margin: 5px 5px 5px 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-avatar {
+  border-color: radial-gradient(#a8a6b6, #b3b1bf, #bdbbc7, #c5c4ce, #e2e2e7);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  transition: transform 0.2s ease;
+  overflow: hidden;
+}
+
+.card-avatar img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.card-social {
+  display: flex;
+  justify-content: space-around;
+  width: 190px;
+  margin-top: 10%;
+  text-align: center;
+}
+
+.card-social-icon {
+  list-style: none;
+  color: #515f65;
+  font-size: 0.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-social-icon svg {
+  display: block;
+  height: 20px;
+  width: 20px;
+  fill: #122e2e;
+  cursor: pointer;
+}
+
+.card-social li a {
+  margin-top: 5px;
+  text-decoration: none;
+  color: #122e2e;
+  font-family: "Almarai", sans-serif;
+  font-size: 11px;
+}
+
+.card-title {
+  font-family: "DotGothic16", sans-serif;
+  color: #1b1b1b;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 2rem;
+  margin-top: 5px;
+}
+
+.card-subtitle {
+  font-family: "Almarai", sans-serif;
+  color: #163939;
+  font-size: 1em;
+}
+
+.address-icon {
+  fill: #122e2e;
+  height: 150px;
+  width: 100px;
+  list-style: none;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.address-title {
+  font-family: "DotGothic16", sans-serif;
+  margin-top: -20px;
+  font-size: 1em;
+  font-weight: 600;
+  list-style: none;
+}
+
+.card-info li {
+  color: #163939;
+  font-family: "Almarai", sans-serif;
+}
+
+.address {
+  color: #163939;
+  font-size: 0.8em;
+  list-style: none;
+  padding-left: 20px;
+}
+
+.contact-title {
+  font-family: "Almarai", sans-serif;
+  color: #333;
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-top: 45%;
+  padding-bottom: 5px;
+}
+
+.card-contact {
+  color: #163939;
+  font-size: 12px;
+}
+
+.card-contact li {
+  color: #163939;
+  font-family: "Almarai", sans-serif;
+}
+
+.icon-contact {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.icon-contact svg {
+  display: block;
+  height: 19px;
+  width: 18px;
+  fill: #122e2e;
+  padding-right: 5px;
+}
+
+.cardMContact:hover {
+  box-shadow: 0 10px 50px #23232333;
+}
+
+.cardMContact:hover .card-info {
+  transform: translateY(-5%);
+}
+
+.card-avatar:hover {
+  transform: scale(1.1);
+}
+
+#cs1:hover {
+  transform: scale(2);
+}
+
+#cs2:hover {
+  transform: scale(2);
+}
+
+#cs3:hover {
+  transform: scale(2);
+}
+
+.mainContacts:hover #c1 {
+  transform: translateX(0px);
+}
+
+.mainContacts:hover #c2 {
+  transform: translateX(290px);
+}
+
+.mainContacts:hover #c3 {
+  transform: translateX(-290px);
+}
+
+/*Send message*/
+
+.inputBox1 span,
+.inputBoxMessage span,
+.inputBox span {
+  font-family: "DotGothic16", sans-serif;
+}
+
+.messagecontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.contact-form a {
+  color: #faf1f6;
+  font-family: "DotGothic16", sans-serif;
+}
+
+.message {
+  color: #163939;
+  letter-spacing: 2px;
+  display: block;
+  font-weight: bold;
+  font-size: x-large;
+  margin-top: 1.5em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 350px;
+  width: 400px;
+  flex-direction: column;
+  gap: 35px;
+  border-radius: 15px;
+}
+
+.inputBoxMessage input {
+  height: 80px;
+  color: #faf1f6;
+}
+
+.inputBox,
+.inputBox1 {
+  position: relative;
+  width: 250px;
+}
+
+.inputBox input,
+.inputBox1 input {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: none;
+  color: #faf1f6;
+  font-size: 1em;
+  background: transparent;
+  border-left: 2px solid #163939;
+  border-bottom: 2px solid #1f1f1f;
+  transition: 0.1s;
+  border-bottom-left-radius: 8px;
+}
+
+.inputBox span,
+.inputBox1 span {
+  margin-top: 5px;
+  position: absolute;
+  left: 0;
+  transform: translateY(-4px);
+  margin-left: 10px;
+  padding: 10px;
+  pointer-events: none;
+  font-size: 12px;
+  color: #1d3535;
+  text-transform: uppercase;
+  transition: 0.5s;
+  letter-spacing: 3px;
+  border-radius: 8px;
+}
+
+.inputBox input:valid ~ span,
+.inputBox input:focus ~ span {
+  transform: translateX(113px) translateY(-15px);
+  font-size: 0.8em;
+  padding: 5px 10px;
+  background: #163939;
+  letter-spacing: 0.2em;
+  color: #faf1f6;
+  border: 2px;
+}
+
+.inputBox1 input:valid ~ span,
+.inputBox1 input:focus ~ span {
+  transform: translateX(156px) translateY(-15px);
+  font-size: 0.8em;
+  padding: 5px 10px;
+  background: #163939;
+  letter-spacing: 0.2em;
+  color: #faf1f6;
+  border: 2px;
+}
+
+.inputBox input:valid,
+.inputBox input:focus,
+.inputBox1 input:valid,
+.inputBox1 input:focus {
+  border: 2px solid #1f1f1f;
+  border-radius: 8px;
+}
+
+.enter {
+  height: 45px;
+  width: 100px;
+  border-radius: 5px;
+  border: 2px solid #163939;
+  cursor: pointer;
+  background-color: transparent;
+  transition: 0.5s;
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 2px;
+  margin-bottom: 3em;
+}
+
+.enter:hover {
+  background-color: #163939;
+  color: #faf1f6;
+}
+
+.image-containerL {
+  overflow-x: hidden;
+  max-width: 768px;
+}
+
+.image-wrapperL {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: calc(
+    (100% - (1.5rem * (var(--per-view) - 1))) / var(--per-view)
+  );
+  grid-gap: 1.5rem;
+  position: relative;
+  left: 0;
+  transition: 0.3s;
+}
+
+.image-wrapperL > * {
+  aspect-ratio: 4 / 3;
+}
+
+.image-wrapperL img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 0.5rem;
+}
+
+/*image r*/
+
+.image-containerR {
+  overflow-x: hidden;
+  max-width: 768px;
+}
+
+.image-wrapperR {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: calc(
+    (100% - (1.5rem * (var(--per-view) - 1))) / var(--per-view)
+  );
+  grid-gap: 1.5rem;
+  position: relative;
+  left: 0;
+  transition: 0.3s;
+}
+
+.image-wrapperR > * {
+  aspect-ratio: 4 / 3;
+}
+
+.image-wrapperR img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 0.5rem;
+}
+
+/*PREV WORKS SECTION*/
+.wrapper {
+  max-width: 1100px;
+  width: 100%;
+  position: relative;
+  margin: 20px auto;
+}
+
+.wrapper i {
+  top: 50%;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  font-size: 1.25rem;
+  position: absolute;
+  text-align: center;
+  line-height: 50px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
+  transform: translateY(-50%);
+  transition: transform 0.1s linear;
+}
+.wrapper i:active {
+  transform: translateY(-50%) scale(0.85);
+}
+.wrapper i:first-child {
+  left: -22px;
+}
+.wrapper i:last-child {
+  right: -22px;
+}
+.wrapper .carousel {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: calc((100% / 3) - 12px);
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 16px;
+  border-radius: 8px;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+.carousel.no-transition {
+  scroll-behavior: auto;
+}
+.carousel.dragging {
+  scroll-snap-type: none;
+  scroll-behavior: auto;
+}
+.carousel.dragging .Wcard {
+  cursor: grab;
+  user-select: none;
+}
+.carousel :where(.Wcard, .img) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel .Wcard {
+  scroll-snap-align: start;
+  height: 390px;
+  width: 350px;
+  list-style: none;
+  background: #fff;
+  cursor: pointer;
+  padding-bottom: 15px;
+  flex-direction: column;
+  border-radius: 12px;
+}
+.carousel .Wcard .img {
+  background: #8b53ff;
+  height: 148px;
+  width: 148px;
+}
+
+.Wcard .img img {
+  width: 200px;
+  height: 140px;
+  object-fit: cover;
+  border: 4px solid #fff;
+  display: block;
+  margin: 0 auto;
+}
+
+.carousel .Wcard h2 {
+  font-weight: 600;
+  font-size: 1.56rem;
+  margin: 30px 0 5px;
+  text-align: center;
+  font-family: "Almarai", sans-serif;
+  color:#122e2e;
+}
+
+.carousel .Wcard a {
+  font-weight: 600;
+  font-size: 1.56rem;
+  margin: 30px 0 5px;
+  text-align: center;
+  font-family: "Almarai", sans-serif;
+  color:#122e2e;
+  text-decoration: none;
+}
+
+.carousel .Wcard span {
+  font-family: "Almarai", sans-serif;
+  color: #47494e;
+  font-size: 1rem;
+  margin: 20px;
+  text-align: justify;
+}
+
+@media screen and (max-width: 900px) {
+  .wrapper .carousel {
+    grid-auto-columns: calc((100% / 2) - 9px);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper .carousel {
+    grid-auto-columns: 100%;
+  }
+}
+
+.Wcard .img,
+.Wcard h2,
+.Wcard span {
+  text-align: center;
+}
+
+.works {
+  margin-bottom: 100px;
+}
+
+.works p {
+  font-family: "Almarai", sans-serif;
+  color: #faf1f6;
+  text-align: center;
+  margin-top: 8px; 
+  margin-bottom: 40px;
+  font-size: 15px;
+}
+
+.works h2 {
+  font-size: 70px;
+  font-family: "Almarai", sans-serif;
+  color: #faf1f6;
+  text-align: center;
+  margin-bottom: 10px; 
+  margin-top: 50px;
+}
+

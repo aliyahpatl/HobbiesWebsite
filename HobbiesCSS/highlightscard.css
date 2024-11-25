@@ -1,0 +1,120 @@
+.highlights h2 {
+  font-family: "Almarai", sans-serif;
+  letter-spacing: -1px;
+  color: #faf1f6;
+  margin-top: 60px;
+  text-align: center;
+  font-size: 80px;
+}
+
+.highlights-menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.highlights-menu li {
+  font-family: "Almarai", sans-serif;
+  font-weight: bold;
+  letter-spacing: -1px;
+  font-size: 30px;
+  list-style: none;
+}
+
+.highlights-menu li a {
+  text-decoration: none;
+  color: #faf1f6;
+}
+
+.highlights-options {
+  margin-left: 50px;
+  margin-right: 50px;
+  border: 6px solid #faf1f6;
+  border-radius: 8px;
+  height: 100px;
+  transition: height 0.3s ease;
+  position: relative;
+}
+
+.highlights-options:hover {
+  background-color: #faf1f6;
+  border-color: #faf1f6;
+  height: 400px;
+}
+
+.highlights-options:hover li a {
+  color: rgb(22, 57, 57);
+}
+
+.highlights-options:hover .maincards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -170px;
+}
+
+/*opens a card to display albums*/
+.highlights-options {
+  position: relative;
+}
+
+.highlights-options .maincards {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+
+/*ALBUM HIGHLIGHTS DISPLAY */
+
+.cards {
+  margin-left: 240px;
+  margin-right: auto;
+  position: relative;
+}
+
+.card {
+  z-index: 1;
+  position: absolute;
+  width: 200px;
+  height: 120px;
+  border-radius: 10px;
+  transition: all 0.5s ease-out;
+  overflow: hidden;
+  margin-right: 20px;
+  transform: translateX(0px) translateY(0px) perspective(905px) rotateX(0deg)
+    rotateY(0deg) rotateZ(-8deg);
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.cards.show {
+  display: block;
+}
+
+.card.one {
+  top: -120px;
+  left: -150px;
+}
+
+.card.two {
+  top: -95px;
+  left: -125px;
+}
+
+.card.three {
+  top: -70px;
+  left: -100px;
+}
+
+.card:hover {
+  z-index: 4;
+  transform: perspective(1000px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) !important;
+  transition: all 0.5s ease-out;
+}

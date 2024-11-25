@@ -1,0 +1,488 @@
+@import url("https://fonts.googleapis.com/css2?family=Gloock&family=Golos+Text:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
+
+body, header, footer, .container {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 30px;
+  margin-top: 20px;
+  font-size: 30px;
+  font-family: "Golos Text", sans-serif;
+}
+
+.black {
+  color: black;
+}
+
+.orange {
+  color: #ff753a;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 15px;
+  width: 100%;
+}
+
+.ul-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-right: 30px;
+  font-family: "Golos Text", sans-serif;
+}
+
+.ul-menu li a {
+  color: black;
+  text-decoration: none;
+}
+
+.ul-menu li a:hover {
+  color: #ff3a3a;
+}
+
+.ul-menu li {
+  margin: 0 6px;
+}
+
+.ul-menu li:last-child {
+  margin-right: 0;
+}
+
+.ul-menu li p {
+  margin: 0 5px;
+}
+
+.ul-menu li:last-child a {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.ul-menu li:last-child a:hover {
+  color: #ff753a;
+  border: 1px solid #ff753a;
+  padding: 5px 10px;
+}
+
+.h1-menu {
+  font-size: 60px;
+  font-family: "DM Serif Display", serif;
+  margin-left: 30px;
+}
+
+.p-menu {
+  margin-left: 30px;
+  font-family: "Golos Text", sans-serif;
+}
+
+.nav-choice li:last-child a {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.ul-choice {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  font-size: 20px;
+  margin-left: 30px;
+  font-family: "Golos Text", sans-serif;
+}
+
+.ul-choice li {
+  margin-right: 20px;
+}
+
+.ul-choice li a {
+  color: black;
+}
+
+.ul-choice li:first-child a {
+  background-color: #ff753a;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.ul-choice li:last-child a {
+  border: 1px solid #ff753a;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: #ff753a;
+  text-decoration: none;
+}
+
+.ul-choice li:first-child a:hover {
+  border: 1px solid #FF753A;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: #ff753a;
+}
+
+.ul-choice li:last-child a:hover {
+  background-color: #ff753a;
+  padding: 10px 20px;
+  color: #ff753a;
+}
+
+.body-bg {
+  margin-top: -20px;
+  background-image: url("https://img.freepik.com/free-photo/asian-girl-glasses-thinks-holds-pen-clipboard-writing-down-making-notes-standing-white-background_1258-94366.jpg?w=1380&t=st=1677496484~exp=1677497084~hmac=87192d87363300ff81666872affbc23234843413ba1f693b357af933f593f433");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+@media only screen and (max-width: 768px) {
+  .body-bg {
+    background-attachment: scroll;
+  }
+}
+
+.body2-bg {
+  background-color: whitesmoke;
+}
+
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+  max-width: 800px;
+}
+
+.logo {
+  filter: grayscale(100%);
+  transition: filter 0.5s ease-in-out;
+  margin: 15px;
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+
+.logo:hover {
+  filter: none;
+  cursor: pointer;
+}
+
+.body2-h3 {
+  text-align: center;
+  font-family: "DM Serif Display", serif;
+  margin-top: 30px;
+  font-size: 40px;
+  color: #ff753a;
+}
+
+.p-container2 {
+  text-align: center;
+  font-family: "Golos Text", sans-serif;
+  background-color: #fff2ec;
+}
+
+.img-logo {
+  max-width: 100px;
+  max-height: 100px;
+  object-fit: contain;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.a-logIn {
+  border-left: 2px solid black;
+  padding: 10px;
+}
+
+.container2 table {
+  background-color: #d4d4d4;
+}
+
+.container2 {
+  margin-bottom: 20px;
+}
+
+.container2 td:hover {
+  background-color: #ff8f5f;
+}
+
+.h2-div3 {
+  text-align: center;
+  font-family: "DM Serif Display", serif;
+  font-size: 50px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: #000000;
+}
+
+.h3-div3 {
+  text-align: center;
+  font-family: "DM Serif Display", serif;
+  font-size: 27px;
+  margin-bottom: 10px;
+  white-space: nowrap;
+  margin-top: 20px;
+}
+
+.p-div3 {
+  text-align: center;
+  font-family: "Golos Text", sans-serif;
+  font-size: 18px;
+  color: rgb(70, 69, 69);
+  max-width: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.a-div3 {
+  text-align: center;
+  display: block;
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-family: "DM Serif Display", serif;
+  font-size: 15px;
+  color: black;
+}
+
+.a-div3:hover {
+  color: #fff2ec;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 2000px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.scc-table {
+  display: block;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-collapse: collapse;
+  margin-left: 0px;
+}
+
+td {
+  padding: 20px;
+  width: 33.33%;
+  border-collapse: collapse;
+}
+
+td:hover {
+  background-color: #fd8c5c;
+  cursor: pointer;
+}
+
+div img {
+  max-width: 40%;
+  margin-left: 20px;
+}
+
+.container4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.column_4 {
+  flex-basis: 40%;
+  margin-right: 20px;
+}
+
+.column_4 img {
+  max-width: 100%;
+  height: auto;
+  margin-left: 60px;
+}
+
+.column_4Text {
+  flex-basis: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .container4 {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.column4Text_h2 {
+  font-size: 60px;
+  font-family: "DM Serif Display", serif;
+}
+
+.column4Text_p {
+  font-family: "Golos Text", sans-serif;
+  font-size: 18px;
+}
+
+td:not(.no-bg) {
+  background-color: white;
+}
+
+tr:not(.no-bg) {
+  background-color: orange;
+}
+
+.c4Text-h2 {
+  margin-bottom: 0px;
+  font-size: 35px;
+  font-family: "DM Serif Display", serif;
+  text-align: left;
+}
+
+.column4Text_p2 {
+  margin-top: -30px;
+  font-family: "Golos Text", serif;
+  color: rgb(70, 69, 69);
+}
+
+.c4Text_Learn {
+  background-color: #ff753a;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  font-family: "Golos Text", sans-serif;
+}
+
+.c4Text_Learn:hover {
+  border: 1px solid#FF753A;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: #000000;
+}
+
+.ul4-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-right: 30px;
+  font-family: "DM Serif Display ", sans-serif;
+  color: black;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.d4-menu a:hover {
+  color: rgb(180, 204, 248);
+  border: rgb(180, 204, 248);
+}
+
+.ul4-menu li {
+  border: 2px solid rgb(180, 204, 248);
+  background-color: rgb(180, 204, 248);
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.ul4-menu a {
+  color: black;
+  font-family: "DM Serif Display", sans-serif;
+  text-decoration: none;
+}
+
+.ul4-menu li:last-child {
+  margin-right: 0;
+}
+
+.div-white {
+  background-color: white;
+}
+
+.table-last {
+  border-collapse: collapse;
+  margin: auto;
+}
+
+.table-last td {
+  font-weight: bold;
+  padding: 10px;
+}
+
+.table-last td:first-child {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "DM Serif Display", sans-serif;
+}
+
+.table-last td:last-child {
+  font-family: "DM Serif Display", sans-serif;
+}
+
+.table-last tr:last-child td:nth-child(2):hover {
+  background-color: rgb(216, 33, 33);
+}
+
+.td-JoinNow {
+  border: 2px solid rgb(216, 33, 33);
+  color: rgb(216, 33, 33);
+  margin: 2px;
+  text-align: center;
+  padding: 2px 10px;
+}
+
+.td-JoinNow a {
+  color: rgb(216, 33, 33);
+}
+
+.p-last {
+  font-family: "Golos Text", sans-serif;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: rgb(98, 94, 94);
+}
+
+.h3-last {
+  font-family: "DM Serif Display", serif;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.h5-last {
+  font-family: "DM Serif Display", serif;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.img-last {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.tr-first-row {
+  height: 400px;
+}
+
+.tr-first-row .img-last {
+  max-height: 100%;
+}
+
+td:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transform: translateY(-5px);
+}

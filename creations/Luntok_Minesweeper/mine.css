@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=DotGothic16&display=swap");
+
+body {
+  background-image: url(assets_Mine/minebg.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h2 {
+  font-size: 30px;
+  color: whitesmoke;
+  font-family: "DotGothic16", sans-serif;
+}
+h3 {
+  color: whitesmoke;
+  font-family: "DotGothic16", sans-serif;
+}
+
+#box {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#box p {
+  margin-left: 30px;
+  margin-right: 30px;
+  color: whitesmoke;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#field table {
+  border-collapse: collapse;
+  font-size: 150%;
+  font-family: sans-serif;
+  font-weight: bold;
+  display: inline-block;
+}
+
+#field table td {
+  background-color: rgb(195, 195, 195);
+  width: 30px;
+  min-width: 30px;
+  height: 30px;
+  min-height: 30px;
+  border: 1px solid black;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  background-color: rgb(195, 195, 195);
+  color: black;
+  font-weight: bolder;
+  border-radius: 20px;
+}

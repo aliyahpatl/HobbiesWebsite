@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Minesweeper</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="mine.css" type="text/css">
+    <script type="text/javascript" src="mine.js"></script>
+  </head>
+  <body>
+    <div id="box">
+      <h2>MINESWEEPER!</h2>
+      <p>Minesweeper is a puzzle game where the player must uncover cells on a grid while avoiding hidden mines. The numbers revealed in each cell indicate the number of neighboring mines, helping the player deduce the location of safe cells. The objective is to uncover all non-mine cells without detonating any mines, using logic and deduction to navigate the grid and strategically flagging potential mine locations.</p>
+      <hr><br><br>
+      <div id="field"></div>
+      <br>
+      <div id="lost" style="display: none;">
+        <h3>You got bombed!</h3>
+        <button id="new-game-button" type="button" onclick="reload()">Start Again</button>
+      </div>      
+    </div>
+  </body>
+</html>
